@@ -24,7 +24,7 @@ Built by **Kiran K P** with **Codex**.
 No build step and no dependencies. You only need Python 3.
 
 ```bash
-git clone https://github.com/<your-username>/where-did-my-salary-go.git
+git clone https://github.com/andiamkirankp-kime/where-did-my-salary-go.git
 cd where-did-my-salary-go
 python3 dev-server.py
 ```
