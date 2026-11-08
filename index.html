@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Where Did My Salary Go? — Your Salary Control System</title>
+  <meta name="description" content="Your salary, your rules. A quick setup, a clear budget, and more room for the life you want.">
+  <link rel="icon" href="/icon.svg">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Salary Control">
+  <meta name="theme-color" content="#7759ef">
+  <link rel="stylesheet" href="/styles.css?v=7">
+</head>
+<body>
+  <div id="app">
+    <main class="boot-screen">
+      <div class="boot-card">
+        <img src="/icon.svg" alt="" width="54" height="54">
+        <h1>Your money, loading.</h1>
+        <p>Opening your device data…</p>
+        <div class="boot-dots" aria-label="Loading"><span></span><span></span><span></span></div>
+      </div>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>Enable JavaScript to use your salary dashboard.</noscript>
+  <script type="module" src="/app.mjs?v=7"></script>
+</body>
+</html>
